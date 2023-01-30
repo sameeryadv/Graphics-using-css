@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+    background-color: azure;
+    height: 100vh;
+}
+.mcaffe{
+    position: relative;
+    top: 40vh;
+    margin: auto;
+    width: 11vh;
+    height: 14vh;
+    border-color: rgb(174, 20, 20);
+    border-width: 0 3vh;
+    border-style: solid;
+}

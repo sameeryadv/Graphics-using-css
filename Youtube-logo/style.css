@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    height: 100vh;
+    background-color: azure;
+}
+.box{
+    position: relative;
+    margin: auto;
+    top: 40vh;
+    width: 17vh;
+    height: 10vh;
+    background-color: red;
+    border-radius: 1.5vh;
+}
+.box::before{
+    content: "";
+    width: 0;
+    position: relative;
+    top: 4vh;
+    left: 7vh;
+    margin: auto;
+    height: 0;
+    border-left: 3vh red ridge;
+    border-right: 0vh white solid;
+    border-top: 0vh white solid;
+    border-bottom: 0px white solid;
+}

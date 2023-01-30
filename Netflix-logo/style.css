@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    background-color: azure;
+    margin: auto;
+}
+.netflix{
+    position: relative;
+    top: 40vh;
+    margin: auto;
+    width: 2vh;
+    height: 10vh;
+    border-left: 2vh red solid;
+    border-right: 2vh red solid;
+}
+.netflix::before{
+    position: absolute;
+    content: "";
+    width: 2vh;
+    transform: rotateZ(339deg);
+    height: 10vh;
+    background-color: red;
+}

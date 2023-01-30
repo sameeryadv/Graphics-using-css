@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Logo</title>
+    <style>
+        body{
+            height: 100vh;
+            background-color: azure;
+            margin: auto;
+        }
+        .logo{
+            width: 5vh;
+            height: 5vh;
+            left: 80vh;
+            position: relative;
+            top: 40vh;
+            background-color: #F25022;
+            box-shadow: 6vh 0 #7FBA00, 0 6vh #00A4EF, 6vh 6vh #FFB900;
+        }
+        .logo::after{
+            content: "Microsoft";
+            color: gray;
+            position: relative;
+            left: 13vh;
+            font-weight: 400;
+            font-size: 8vh;
+            font-family: system-ui;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo"></div>
+</body>
+</html>
